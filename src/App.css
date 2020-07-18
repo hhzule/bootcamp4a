@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(231, 171, 60);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{margin: 0px; padding: 0px;}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.mainbody{
+  background-color: rgb(231, 171, 60);
+  background-image: url("./images/desert1..jpg");
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 200vh;
+  position: relative;
+ background-position: 0px 0px;
+}
+.clouds{
+  background-image: url("./images/cloud2.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cowboy{
+  position: absolute;
+  background-image: url("./images/hay.gif");
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 35%;
+  left: 30%;
+  bottom: -8%;
+  padding-bottom: 4%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  width: 100px;
+  height:50px;
+  padding: 10px;margin: 5px;
+  background-color: rgb(194, 166, 219);
+  
 }
